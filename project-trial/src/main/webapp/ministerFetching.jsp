@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>DONE.........
-HEY ${validinstitute.instituteName}
-</h1>
+ <form action="minister.lti" method="post" >
+    <button type="submit">View All Students</button>
+ </form>
 </body>
 </html>

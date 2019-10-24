@@ -18,7 +18,7 @@ public class InstituteRegistration {
 	private int instRegisNo;
 	
 	@Column(name="INSTITUTE_CODE")
-	private String code;
+	private long code;
 	
 	@Column(name="INSTITUTE_NAME")
 	private String name;
@@ -73,11 +73,13 @@ public class InstituteRegistration {
 		this.instRegisNo = instRegisNo;
 	}
 
-	public String getCode() {
+	
+
+	public long getCode() {
 		return code;
 	}
 
-	public void setCode(String code) {
+	public void setCode(long code) {
 		this.code = code;
 	}
 

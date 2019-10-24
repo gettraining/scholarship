@@ -3,6 +3,8 @@ package com.lti.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -11,28 +13,29 @@ public class InstituteLogin {
 
 	@Id
 	@Column(name="INSTITUTE_CODE")
-	private String instituteCode;
+	private long instituteCode;
 	
-	@Column(name="INSTITUTE_REGIS_NO")
-	private int instRegisNo;
+	@OneToOne
+	@JoinColumn(name="INSTITUTE_REGIS_NO")
+	private InstituteRegistration registration;
 	
 	@Column(name="STATE_CODE")
 	private String stateCode;
 
-	public String getInstituteCode() {
+	public long getInstituteCode() {
 		return instituteCode;
 	}
 
-	public void setInstituteCode(String instituteCode) {
+	public void setInstituteCode(long instituteCode) {
 		this.instituteCode = instituteCode;
 	}
 
-	public int getInstRegisNo() {
-		return instRegisNo;
+	public InstituteRegistration getRegistration() {
+		return registration;
 	}
 
-	public void setInstRegisNo(int instRegisNo) {
-		this.instRegisNo = instRegisNo;
+	public void setRegistration(InstituteRegistration registration) {
+		this.registration = registration;
 	}
 
 	public String getStateCode() {

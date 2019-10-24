@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+<form action="apply.lti" method="post">
 <h1>Record added</h1>
+<button type="submit">APPLY</button>
+</form>
 </body>
 </html>

@@ -3,7 +3,6 @@ package com.lti.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.lti.controller.LoginServiceInterface;
 import com.lti.dao.LoginDao;
 import com.lti.dto.StudentInfo;
 @Service

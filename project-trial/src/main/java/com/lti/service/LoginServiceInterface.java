@@ -1,4 +1,4 @@
-package com.lti.controller;
+package com.lti.service;
 
 import com.lti.dto.StudentInfo;
 

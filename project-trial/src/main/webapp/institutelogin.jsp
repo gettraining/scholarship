@@ -7,8 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>DONE.........
-HEY ${validinstitute.instituteName}
-</h1>
+<form action="institutelogin.lti" method="post">
+<input type="number"  name="instcode"><br><br>
+<input type="password" name="instpassword"><br><br>
+<button type="submit">Submit</button>
+</form>
 </body>
 </html>

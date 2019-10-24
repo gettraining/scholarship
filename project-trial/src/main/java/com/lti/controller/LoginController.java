@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 import com.lti.dto.StudentInfo;
 import com.lti.entity.StudentRegistration;
+import com.lti.service.LoginServiceInterface;
 
 @Controller
 @SessionAttributes("validstudent")
@@ -28,7 +29,7 @@ public class LoginController {
 	
 	 if(studentPassword.equals(student.getStudentPassword())){
 			model.put("validstudent", student);
-		 return "redirect:studentmarks10.jsp";
+		 return "redirect:confirmation.jsp";
 	 }
 	 else
 	 {

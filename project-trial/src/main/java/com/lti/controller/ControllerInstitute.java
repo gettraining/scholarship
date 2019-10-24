@@ -22,25 +22,8 @@ public class ControllerInstitute {
 	
 	public String register(InstituteRegistration institute/*,@RequestParam("instestcerti")MultipartFile instestcerti,@RequestParam("univcerti")MultipartFile univcerti*/, Map model){
 		
-		institute.setCode(institute.getCode());
-		institute.setName(institute.getName());
-		institute.setDiscCode(institute.getDiscCode());
-		institute.setAddress(institute.getAddress());
-		institute.setPincode(institute.getPincode());
-		institute.setCategory(institute.getCategory());
-		institute.setLocation(institute.getLocation());
-		institute.setPwd(institute.getPwd());
-		institute.setPrincipalName(institute.getPrincipalName());
-		institute.setState(institute.getState());
-		institute.setDistrict(institute.getDistrict());
-		institute.setUniBoardName(institute.getUniBoardName());
-		institute.setContactNo(institute.getContactNo());
-		institute.setBoardAfflCerti(institute.getBoardAfflCerti());
-		institute.setInstEstabCerti(institute.getInstEstabCerti());
-		
-		
 		instituteService.register(institute);
-		return "confirm.jsp";
+		return "institutelogin.jsp";
 	}
 	
 }
