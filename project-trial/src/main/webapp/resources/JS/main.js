@@ -4,15 +4,33 @@ $(document).ready(function(){
 $('#registration').focus(
 		function(){
 			$('#dropdown-content').show();
-		}).focusout(
-		function(){
-			$('#dropdown-content').hide();
 		})
 $('#login').focus(
 		function(){
 			$('#dropdown-content1').show();
-		}).focusout(
+		})
+$('#studentRegistration').click(
 		function(){
-			$('#dropdown-content1').hide();
+			$('#dropdown-content').hide();
+		})
+$('#register').click(
+		function(){
+			$('#dropdown-content').hide();
+		})
+$('#studentlogin').click(
+		function(){
+			$('#dropdown-content').hide();
+		})
+$('#instituteloginr').click(
+		function(){
+			$('#dropdown-content').hide();
+		})
+$('#state').click(
+		function(){
+			$('#dropdown-content').hide();
+		})
+$('#minister').click(
+		function(){
+			$('#dropdown-content').hide();
 		})
 });

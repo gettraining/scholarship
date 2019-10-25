@@ -23,14 +23,14 @@
 	</nav>
 	<div id="dropdown" class = "dropdown-layout">
 		<div id="dropdown-content" class="dropdown-content">
-			<a href = "studentRegistration.jsp">STUDENT</a>
-			<a href = "register.jsp">INSTITUTE</a>
+			<a id="studentRegistration" href = "studentRegistration.jsp">STUDENT</a>
+			<a id="register" href = "register.jsp">INSTITUTE</a>
 		</div>
 		<div id="dropdown-content1" class="dropdown-content1">
-			<a href = "studentlogin.jsp">STUDENT</a>
-			<a href = "institutelogin">INSTITUTE</a>
-			<a href = "#">STATE</a>
-			<a href = "minister.jsp">MINISTRY</a>
+			<a id="studentlogin" href = "studentlogin.jsp">STUDENT</a>
+			<a id="institutelogin" href = "institutelogin.jsp">INSTITUTE</a>
+			<a id="state" href = "#">STATE</a>
+			<a id="minister" href = "minister.jsp">MINISTRY</a>
 		</div>
 	</div>
 	
