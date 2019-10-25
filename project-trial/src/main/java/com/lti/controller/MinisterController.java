@@ -14,7 +14,7 @@ import com.lti.entity.ScholarshipStudentStatus;
 import com.lti.service.MinisterService;
 
 @Controller
-
+@SessionAttributes("studentMarks")
 public class MinisterController {
 	
 	@Autowired
@@ -25,14 +25,7 @@ public class MinisterController {
 	public String fetchByStatus(Map model) {
 		String status="VERIFIED BY STATE";
 		List<ScholarshipStudentStatus> studentStatus= service.fetchByStatus(status);
-		for(ScholarshipStudentStatus ss :studentStatus) {
-			int studId=ss.getStudentRegistration().getStudentId();
-		List<StudentMarksDto> dtoList=service.fetchMarksById(studId);
-		model.put("studentMarks", dtoList);
-		}
-		
 		model.put("studentStatus", studentStatus);
-		
 		return "fetch.jsp";
 		
 	}

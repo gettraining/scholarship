@@ -69,7 +69,6 @@ nav {
     margin: 0;
     color: white; 
     border-radius: 5px;
-    
     font-family: Segoe UI;
 }
 
@@ -104,11 +103,14 @@ nav {
 	margin-top:2px;
 	padding:10px;
 	background: white;
-	border: 1px solid black;
 	width: 8%;
 	text-align:center;
 	z-index: 10;
 	display: hidden;
+	 background:#3fa46a;
+    color: white; 
+    border-radius: 5px;
+    font-family: Segoe UI;
 	
 }
 
@@ -118,10 +120,12 @@ nav {
 	text-decoration: none;
 	margin-top:2px;
 	padding:10px;
-	background: white;
-	border: 1px solid black;
 	width:8%;
 	text-align:center;
 	z-index: 10;
+    background:#3fa46a;
+    color: white; 
+    border-radius: 5px;
+    font-family: Segoe UI;
 	
 }

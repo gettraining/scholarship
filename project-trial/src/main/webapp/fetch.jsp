@@ -19,6 +19,7 @@
     <tr>      
         <td><input type="text" value="${student.status}"></td>
         <td>${student.studentRegistration.studentId}</td>
+        <td><a href="marks.lti">View More Details</a>
         
     </tr>
 </c:forEach>
