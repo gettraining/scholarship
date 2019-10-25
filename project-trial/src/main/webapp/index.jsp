@@ -18,8 +18,8 @@
 	<a href="confirm.jsp" class="menu">HOME</a> 
 	<a href="#" class="menu">ABOUT US</a> 
 	<a href="#" class="menu">CONTACT US</a> 
-	<a id = "registration" href="#" target="self" class="menu">REGISTRATION</a> 
-	<a id = "login" href="#" target="self" class="menu">LOGIN</a> 
+	<a id = "registration" href="#"  class="menu">REGISTRATION</a> 
+	<a id = "login" href="#" class="menu">LOGIN</a> 
 	</nav>
 	<div id="dropdown" class = "dropdown-layout">
 		<div id="dropdown-content" class="dropdown-content">

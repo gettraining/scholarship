@@ -2,6 +2,9 @@
     padding-top: 5px;
     text-align: center;
 }
+body{
+	font-family: Segoe UI;
+}
 
 nav {
     margin-top: 35px;
@@ -88,7 +91,7 @@ nav {
     margin: 0;
     color: white; 
     border-radius: 5px;
-    font-family: Helvetica;
+    font-family: Segoe UI;
     font-size: 16px;
 }
 .dropdown-layout{
@@ -102,17 +105,15 @@ nav {
 	text-decoration: none;
 	margin-top:2px;
 	padding:10px;
-	background: white;
 	width: 8%;
 	text-align:center;
-	z-index: 10;
-	display: hidden;
-	 background:#3fa46a;
-    color: white; 
+    background: white;
+    border: 2px solid #3fa46a;
+    color: #3fa46a; 
     border-radius: 5px;
     font-family: Segoe UI;
 	
-}
+} 
 
 .dropdown-content1 > a{
 	margin-left: 72%;
@@ -123,9 +124,42 @@ nav {
 	width:8%;
 	text-align:center;
 	z-index: 10;
-    background:#3fa46a;
-    color: white; 
+	background: white;
+    border: 2px solid #3fa46a;
+    color: #3fa46a; 
     border-radius: 5px;
     font-family: Segoe UI;
 	
+}
+
+.dropdown-content1 > a:hover{
+	background: #3fa46a;
+	border: none;
+	color: white;
+	margin-left: 72%;
+	display: block;
+	text-decoration: none;
+	margin-top:2px;
+	padding:10px;
+	width:8%;
+	text-align:center;
+	z-index: 10; 
+    border-radius: 5px;
+    font-family: Segoe UI;
+}
+
+.dropdown-content > a:hover{
+	background: #3fa46a;
+	border: none;
+	color: white;
+	margin-left: 59%;
+	display: block;
+	text-decoration: none;
+	margin-top:2px;
+	padding:10px;
+	width:8%;
+	text-align:center;
+	z-index: 10; 
+    border-radius: 5px;
+    font-family: Segoe UI;
 }

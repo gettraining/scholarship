@@ -12,10 +12,11 @@ public class MarksService {
 	
 	@Autowired
 	private MarksDao dao;
-	public StudentMarksDto fetchMarksById() {
-		// TODO Auto-generated method stub
-		StudentInfo sInfo=(StudentInfo) dao.fetchMarks();
-		return sInfo;
+	public StudentMarksDto fetchMarksById(int id) {
+		StudentMarksDto dto=(StudentMarksDto) dao.fetchMarksById(id);
+		return dto;
+
+		
 	}
 
 }

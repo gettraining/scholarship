@@ -14,7 +14,7 @@ import com.lti.entity.ScholarshipStudentStatus;
 import com.lti.service.MinisterService;
 
 @Controller
-@SessionAttributes("studentMarks")
+@SessionAttributes("studentStatus")
 public class MinisterController {
 	
 	@Autowired

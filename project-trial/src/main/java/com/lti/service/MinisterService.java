@@ -21,8 +21,5 @@ public class MinisterService {
 			
 	}
 
-//	public List<StudentMarksDto> fetchMarksById(int studId) {
-//		List<StudentMarksDto> list=dao.fetchMarksById(studId);
-//		return list;
-//	}
+
 }

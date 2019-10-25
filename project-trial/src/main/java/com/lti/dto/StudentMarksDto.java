@@ -19,6 +19,8 @@ public class StudentMarksDto {
 	private String boardname12;
 	private int passingyear12;
 	private double percentage12;
+	
+	
 	public int getStudentId() {
 		return studentId;
 	}
