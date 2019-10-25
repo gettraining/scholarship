@@ -23,11 +23,11 @@ public class MinisterController {
 	@RequestMapping(path="/minister.lti",method=RequestMethod.POST)
 	
 	public String fetchByStatus(Map model) {
-		String status="APPROVED";
+		String status="VERIFIED BY STATE";
 		List<ScholarshipStudentStatus> studentStatus= service.fetchByStatus(status);
 		for(ScholarshipStudentStatus ss :studentStatus) {
 			int studId=ss.getStudentRegistration().getStudentId();
-		List<StudentMarksDto> dtoList=service.fetchByIdMarks(studId);
+		List<StudentMarksDto> dtoList=service.fetchMarksById(studId);
 		model.put("studentMarks", dtoList);
 		}
 		

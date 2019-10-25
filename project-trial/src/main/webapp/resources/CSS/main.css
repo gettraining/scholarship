@@ -1,0 +1,127 @@
+.header{
+    padding-top: 5px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 35px;
+    padding: 17px;
+    text-align: center;
+    font-family: Segoe UI;
+    left:0px;
+    border-radius:5px;
+ 
+}
+
+#navbar{
+
+    background: #3fa46a;
+}
+
+.menu{
+    transition: 0.3s ease;
+    background: #3fa46a;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 2px solid #3fa46a;
+    border-bottom: 2px solid #3fa46a;
+    padding: 15px 0;
+    margin: 0 20px;
+}
+
+.menu:hover{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 4px 0;
+}
+.layout{
+    width: 100%;
+}
+
+.updates{
+    width: 70%;
+    /* border: #3fa46a solid 1px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+
+}
+
+.desc{
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.slogin{
+    float: left;
+    width: 26%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.marquee h4{
+    padding: 2px 7px 10px 7px;
+    background:#3fa46a;
+    margin: 0;
+    color: white; 
+    border-radius: 5px;
+    
+    font-family: Segoe UI;
+}
+
+.marquee h4 img{
+    padding-left: 4px;
+}
+
+.marquee h4 span{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+.marquee h4{
+    padding: 5px 5px 5px 5px;
+    background:#3fa46a;
+    margin: 0;
+    color: white; 
+    border-radius: 5px;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+.dropdown-layout{
+	width:100%;
+	
+}
+
+.dropdown-content > a{
+	margin-left: 59%;
+	display: block;
+	text-decoration: none;
+	margin-top:2px;
+	padding:10px;
+	background: white;
+	border: 1px solid black;
+	width: 8%;
+	text-align:center;
+	z-index: 10;
+	display: hidden;
+	
+}
+
+.dropdown-content1 > a{
+	margin-left: 72%;
+	display: block;
+	text-decoration: none;
+	margin-top:2px;
+	padding:10px;
+	background: white;
+	border: 1px solid black;
+	width:8%;
+	text-align:center;
+	z-index: 10;
+	
+}

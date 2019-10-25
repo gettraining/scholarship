@@ -1,0 +1,18 @@
+$(document).ready(function(){
+	$('#dropdown-content').hide();
+	$('#dropdown-content1').hide();
+$('#registration').focus(
+		function(){
+			$('#dropdown-content').show();
+		}).focusout(
+		function(){
+			$('#dropdown-content').hide();
+		})
+$('#login').focus(
+		function(){
+			$('#dropdown-content1').show();
+		}).focusout(
+		function(){
+			$('#dropdown-content1').hide();
+		})
+});
