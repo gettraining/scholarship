@@ -31,14 +31,23 @@ function validate(){
     var bankName = document.getElementById('bank').value;
     var setPassword = document.getElementById('set_pass').value;
     var confPassword = document.getElementById('conf_pass').value;
+    
+    var submit="true";
+    var alphaExp = /^[a-zA-Z]+$/;
+    var phoneno = /^\d{10}$/;
+    var aadharVal = /^\d{12}$/;
+    var alphaExp= /^[a-zA-Z]+$/;
+    var phoneVal = /^\d{10}$/;
+    var pinVal= /^\d{6}$/;
+
 
     if( name == '' || mobileNumber == '' || email == '' || instCode == '' || aadharNo == '' || bankIFSC == '' || bankAccNo == ''
         || bankName == '' || setPassword == '' || confPassword == ''){
-            alert("FIELDS CANNOT BE EMPTY")
-            return false
-        }
-        else{
-            return true
+            alert("FIELDS CANNOT BE EMPTY");
+            return false;
+        }  
+    else{
+            return true;
         }
             
 };

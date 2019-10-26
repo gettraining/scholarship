@@ -15,8 +15,7 @@
 	<form action="registerr.lti" method="post" onsubmit="return validate()">
 		<h2 align="center">Fresh Student Application Form</h2>
 		<div class="card-layout">
-			<table id="table1" ; cellspacing="5px" cellpadding="5%"
-				; align="center">
+			<table id="table1" ; cellspacing="5px" cellpadding="5%"; align="center">
 				<tr>
 					<td align="right">State of Domicile :</td>
 					<td><select id="input" name="studentDomicileState"

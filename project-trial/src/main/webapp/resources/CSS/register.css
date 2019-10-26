@@ -12,3 +12,52 @@ body {
     background: white;
     padding: 20px;
 }
+
+select{
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid #3fa46a;
+    background: white;
+    color: black;
+    font-family: Segoe UI;
+}
+
+input{
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid #3fa46a;
+    background: white;
+    color: black;
+    font-family: Segoe UI;
+
+}
+
+#submit{
+    left: 0px;
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+    background: #3fa46a;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 7px;
+    padding-right: 5px; 
+    top: 20px;
+    font-family: Segoe UI;
+    
+}
+
+#reset{
+    width: 40%;
+    height: 100%;
+    float: right;
+    border-radius: 20px;
+    background: white;
+    border: 2px solid #3fa46a;
+    color: #3fa46a;
+    font-size: 15px;
+    padding: 5px;
+    top: 20px;
+}
+
